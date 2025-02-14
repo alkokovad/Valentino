@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+$main-color: #FF2D55;
+$g1: 32px;
+
+main {
+  background-color: $main-color;
+  padding: $g1;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: $g1;
+  align-content: start;
+  justify-content: center;
+}
