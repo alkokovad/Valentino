@@ -17,6 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'rest_framework',
     'django_filters',
     'corsheaders',
@@ -101,3 +102,4 @@ CSRF_TRUSTED_ORIGINS=[
     "http://www.валентинка-для-любимой-ники.site",
     "http://94.241.168.92"
 ]
+SITE_ID = 1
