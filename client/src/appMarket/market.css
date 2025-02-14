@@ -1,13 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+.bltxt {
+  color: #090909;
+}
+
 main {
   background-color: #FF2D55;
   padding: 32px;
-  margin: auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
   align-content: start;
   justify-content: center;
+}
+main svg {
+  margin: 0 auto;
+}
+main .hooray {
+  margin: auto;
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .description {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  padding: 4px;
+  align-items: center;
+  justify-content: start;
+  margin: 0 auto;
+}
+main .description hr {
+  background-color: #FF9500;
+  width: 8px;
+  height: 80px;
+  border: 0;
+  border-radius: 4px;
+}
+main .description span {
+  color: #FF9500;
+}
+main .economy {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: start;
+  margin: 0 auto;
+}
+main .goods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-content: start;
+}
+main .goods .good {
+  padding: 4px;
+  border-radius: 16px;
+  border-width: 1px 4px 4px 1px;
+  border-style: solid;
+  border-color: rgba(27, 31, 38, 0.72);
+  background-color: #FF2D55;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+main .goods .good:hover {
+  filter: grayscale(10%);
+}
+main .goods .good:active {
+  filter: grayscale(30%);
 }
 
 /*# sourceMappingURL=market.css.map */

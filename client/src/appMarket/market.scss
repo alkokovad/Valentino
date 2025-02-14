@@ -1,15 +1,101 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 
 $main-color: #FF2D55;
+$gold: #FF9500;
+$br-color: rgba(27, 31, 38, 0.72);
+$black: #090909;
 $g1: 32px;
+$g2: 16px;
+$g3: 8px;
+$g4: 4px;
+$g5: 1px;
+
+.bltxt {
+  color: $black;
+}
 
 main {
   background-color: $main-color;
   padding: $g1;
-  margin: auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: $g1;
   align-content: start;
   justify-content: center;
+
+  svg {
+    margin: 0 auto;
+  }
+
+  .hooray {
+    margin: auto;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row;
+    gap: $g4;
+    padding: $g4;
+    align-items: center;
+    justify-content: start;
+    margin: 0 auto;
+
+    hr {
+      background-color: $gold;
+      width: $g3;
+      height: 80px;
+      border: 0;
+      border-radius: $g4;
+    }
+
+    span {
+      color: $gold;
+    }
+  }
+
+  .economy {
+    display: flex;
+    flex-direction: row;
+    gap: $g3;
+    align-items: center;
+    justify-content: start;
+    margin: 0 auto;
+  }
+
+  .goods {
+    display: flex;
+    flex-direction: column;
+    gap: $g2;
+    justify-content: center;
+    align-content: start;
+
+    .good {
+      padding: $g4;
+      border-radius: $g2;
+      border-width: $g5 $g4 $g4 $g5;
+      border-style: solid;
+      border-color: $br-color;
+      background-color: $main-color;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: $g4;
+    }
+
+    .good:hover {
+      filter: grayscale(10%);
+    }
+
+    .good:active {
+      filter: grayscale(30%);
+    }
+  }
 }

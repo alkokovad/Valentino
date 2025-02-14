@@ -34,7 +34,7 @@ h1 {
   font-family: "Dela Gothic One", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
+  font-size: 48px;
   color: white;
   height: fit-content;
   width: fit-content;
@@ -83,6 +83,18 @@ h5 {
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Dela Gothic One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
   color: white;
   height: fit-content;
   width: fit-content;
