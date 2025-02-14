@@ -221,97 +221,97 @@ const Market = () => {
 
                 <button className={"good"}>
                     <IconTV/>
-                    <h4>Смотрю то что мне не нравится, без угрюмой рожи и приреканий</h4>
+                    <h5>Смотрю то что мне не нравится, без угрюмой рожи и приреканий</h5>
                     <h1>1</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconParty/>
-                    <h4>Помочь с организацией тусни для подруг</h4>
+                    <h5>Помочь с организацией тусни для подруг</h5>
                     <h1>1</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconWalk/>
-                    <h4>Сходить куда-нибудь лайтово</h4>
+                    <h5>Сходить куда-нибудь лайтово</h5>
                     <h1>2</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconGift/>
-                    <h4>2 внезапных подарка (не скажу когда)</h4>
+                    <h5>2 внезапных подарка (не скажу когда)</h5>
                     <h1>3</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconHand/>
-                    <h4>30мин чуханья спинки</h4>
+                    <h5>30мин чуханья спинки</h5>
                     <h1>3</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconBroom/>
-                    <h4>Ген-уборка</h4>
+                    <h5>Ген-уборка</h5>
                     <h1>3</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconCook/>
-                    <h4>Вкусни ужын</h4>
+                    <h5>Вкусни ужын</h5>
                     <h1>4</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <Icon18/>
-                    <h4>Сходить куда-нибудь жёстко</h4>
+                    <h5>Сходить куда-нибудь жёстко</h5>
                     <h1>5</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconCart1/>
-                    <h4>Рандом покупка с WB до 1000</h4>
+                    <h5>Рандом покупка с WB до 1000</h5>
                     <h1>6</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconLamp/>
-                    <h4>Что-то новое вдвоём</h4>
+                    <h5>Что-то новое вдвоём</h5>
                     <h1>8</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconCandle/>
-                    <h4>Жёстко романтический вечер</h4>
+                    <h5>Жёстко романтический вечер</h5>
                     <h1>8</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconCart2/>
-                    <h4>Рандом покупка с WB до 5000</h4>
+                    <h5>Рандом покупка с WB до 5000</h5>
                     <h1>14</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconCart3/>
-                    <h4>Рандом покупка с WB до 10000</h4>
+                    <h5>Рандом покупка с WB до 10000</h5>
                     <h1>22</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconBag/>
-                    <h4>Лайтовое путешествие</h4>
+                    <h5>Лайтовое путешествие</h5>
                     <h1>35</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconPlane/>
-                    <h4>Путешествие</h4>
+                    <h5>Путешествие</h5>
                     <h1>280</h1>
                     <IconCoin/>
                 </button>
                 <button className={"good"}>
                     <IconDialog/>
-                    <h4>Ты оказываешься права в споре     <h6>*я устанавливаю цену</h6></h4>
+                    <h5>Ты оказываешься права в споре     <h6>*я устанавливаю цену</h6></h5>
                     <h1>?</h1>
                     <IconCoin/>
                 </button>
@@ -346,7 +346,7 @@ const Market = () => {
                     <h4>рабочий - 89939589160</h4>
                     <h4>aleksandr.kopeykin@gmail.com</h4>
                 </div>
-                <h4>AlkoKovad - orginal content</h4>
+                <h4 className={"original"}>AlkoKovad - orginal content</h4>
             </footer>
 
         </main>

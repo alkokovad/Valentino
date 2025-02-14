@@ -59,6 +59,7 @@ main .goods {
   align-content: start;
 }
 main .goods .good {
+  width: 100%;
   padding: 4px;
   border-radius: 16px;
   border-width: 1px 4px 4px 1px;
@@ -68,15 +69,54 @@ main .goods .good {
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  text-align: start;
   gap: 4px;
+}
+main .goods .good svg {
+  margin: 0;
+}
+main .goods .good h5 {
+  margin: 0 auto 0 0;
 }
 main .goods .good:hover {
   filter: grayscale(10%);
 }
 main .goods .good:active {
   filter: grayscale(30%);
+}
+main .faq {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto;
+}
+main .faq .question {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px;
+  gap: 4px;
+}
+main footer {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: end;
+  border-style: solid;
+  border-color: #090909;
+  border-width: 1px 4px 4px 1px;
+  border-radius: 16px;
+}
+main footer .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: start;
+  align-items: start;
+}
+main footer .original {
+  text-shadow: #090909 2px 2px 0;
 }
 
 /*# sourceMappingURL=market.css.map */

@@ -6,8 +6,10 @@ $br-color: rgba(27, 31, 38, 0.72);
 $black: #090909;
 $g1: 32px;
 $g2: 16px;
+$g15: 12px;
 $g3: 8px;
 $g4: 4px;
+$g45: 2px;
 $g5: 1px;
 
 .bltxt {
@@ -76,6 +78,7 @@ main {
     align-content: start;
 
     .good {
+      width: 100%;
       padding: $g4;
       border-radius: $g2;
       border-width: $g5 $g4 $g4 $g5;
@@ -85,9 +88,17 @@ main {
       margin: auto;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
       align-items: center;
+      text-align: start;
       gap: $g4;
+
+      svg {
+        margin: 0;
+      }
+
+      h5 {
+        margin: 0 auto 0 0;
+      }
     }
 
     .good:hover {
@@ -96,6 +107,41 @@ main {
 
     .good:active {
       filter: grayscale(30%);
+    }
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    gap: $g15;
+    margin: 0 auto;
+    .question {
+      display: flex;
+      flex-direction: column;
+      padding: 0 $g3;
+      gap: $g4;
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    padding: $g3;
+    justify-content: space-between;
+    align-items: end;
+    border-style: solid;
+    border-color: $black;
+    border-width: $g5 $g4 $g4 $g5;
+    border-radius: $g2;
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      gap: $g4;
+      justify-content: start;
+      align-items: start;
+    }
+    .original {
+      text-shadow: $black $g45 $g45 0;
     }
   }
 }
